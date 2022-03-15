@@ -1,36 +1,3 @@
-console.log("vao day")
-
-// // let weather = {
-// //     apiKey: "27d3aa8fe6b92a1143c7d4b32e9f061d",
-// //     fetchWeather: function () {
-// //         fetch(
-// //             "http://api.openweathermap.org/geo/1.0/direct?q=London&limit=5&appid=" + this.apiKey
-// //         )
-// //             .then((response) => response.json())
-// //             .then((data) => console.log(data));
-// //     }
-// // }
-// // dataResponse = {};
-//
-// function callAPI() {
-//     apiLink = "http://api.openweathermap.org/data/2.5/weather?q=London&appid=27d3aa8fe6b92a1143c7d4b32e9f061d";
-//
-//
-//
-//     fetch(this.apiLink)
-//         .then(response => response.json())
-//         .then(data => console.log(data))
-//
-//
-// }
-//
-// // let boxElement = document.querySelector('.box');
-// // console.log(boxElement);
-// //
-// // boxElement.innerHTML = `<h1>Weather in ${}</h1>`;
-//
-// callAPI();
-
 let weather = {
     apiKey: "27d3aa8fe6b92a1143c7d4b32e9f061d",
     fetchWeather: function (city) {
